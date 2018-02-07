@@ -207,7 +207,7 @@ body {
 				
 			}
 		}else{
-			
+			echo mysqli_error($connection);
 		}
 
 		if(!$accountExists){
