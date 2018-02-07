@@ -8,123 +8,122 @@
 	?>
 <style type="text/css">
 body {
-		min-width:900px;
-		padding:0px;
-		margin:0px;
-	  }
+	min-width:900px;
+	padding:0px;
+	margin:0px;
+  }
 #navbar{
-	
-	background-color: #40aae2 ;
-	width:100%;
-	height:70px;
-	
-	
-	color:white;
-	
+
+background-color: #40aae2 ;
+width:100%;
+height:70px;
+
+
+color:white;
+
 }
 #navbar h1{
-	float:left;
-	color:white;
-	position:relative;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	bottom:10px;
-	left: 10px;
+float:left;
+color:white;
+position:relative;
+font-family: 'Barlow Semi Condensed', sans-serif;
+bottom:10px;
+left: 10px;
 }
 #navbar a{
-	text-decoration:none;
-	color:white;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size:30px;
-	padding-top:10px;
-	overflow:hidden;
-	float:right;
-	height: 60px;
-	padding-left:10px;
-	text-align:center;
-	
+text-decoration:none;
+color:white;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-size:30px;
+padding-top:10px;
+overflow:hidden;
+float:right;
+height: 60px;
+padding-left:10px;
+text-align:center;
+
 }
 #navbar a:hover{
-	background-color:#6bcbff;
+background-color:#6bcbff;
 }
 #navbar img{
-		width:190px;
-		height: 70px;
-		
-	}
+	width:190px;
+	height: 70px;
+	
+}
+
 #background{
-	position: absolute;
-	z-index: -10;	
-	width:100%;
-	height:100%;
-	overflow-x:hidden;
-    overflow-y:hidden;
+position: absolute;
+z-index: -10;
+width:100%;
+height:100%;
+top:-1px;
+overflow-x:hidden;
+overflow-y:hidden;
 }
 #background img{
-	position:absolute;
-	left: 0px;
-	top:0px;
-	height:100%;
-	width:100%;
-	overflow-x:hidden;
-    overflow-y:hidden;	
+position:absolute;
+left: 0px;
+top:0px;
+height:100%;
+width:100%;
+overflow-x:hidden;
+overflow-y:hidden;	
 }
 #loginbox{
-	
-	background-color:#40aae2;
-	border-radius:4px;
-	width:300px;
-	border:black;
-	border-style:solid;
-	position: absolute;
-	left:40%;
-	top:30%;
-	
+
+background-color:#40aae2;
+border-radius:4px;
+width:300px;
+border:black;
+border-style:solid;
+position: absolute;
+left:40%;
+top:30%;
+
 }
-#loginbox{
-	
-	
-}
+
 #loginbox form{
-	
-	align-content: center;
-	
-	padding-bottom:10px;
-	padding-top:30px;
-	padding-left:50px;
-	
+
+align-content: center;
+
+padding-bottom:10px;
+padding-top:30px;
+padding-left:50px;
+
 }
 #loginbox input[type=text], input[type=password]{
-	border:none;
-	border-bottom:2px solid white;
-	
-	padding-left:10px;	
-	height:35px;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size:20px;
-	width:200px;
-	
+border:none;
+border-bottom:2px solid white;
+
+padding-left:10px;	
+height:35px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-size:20px;
+width:200px;
+
 }
 #loginbox input[type=submit]{
-	width:100px;
-	
-	height:40px;
-	position:relative;
-	left:40px;
-	border-radius:1px;
-	border-style:solid;
-	font-size:20px;
-	font-family:'Barlow Semi Condensed', sans-serif;
+width:100px;
+
+height:40px;
+position:relative;
+left:40px;
+border-radius:1px;
+border-style:solid;
+font-size:20px;
+font-family:'Barlow Semi Condensed', sans-serif;
 }
 #loginbox p{
-	font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
 }
 #loginbox label{
-	
-	color:black;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	position:relative;
 
-	font-size:20px;
+color:white;
+font-family: 'Barlow Semi Condensed', sans-serif;
+position:relative;
+
+font-size:20px;
 
 }
 #loginbox #registerprompt{
