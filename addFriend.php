@@ -57,7 +57,7 @@ $uid = $_SESSION['userID'];
 $dbUsername = "rian@babblechat-mysqldbserver";
 $dbPassword = "BabbleApp1";
 $dbName = "babbledb";
-$serverName = "'babblechat-mysqldbserver.mysql.database.azure.com";
+$serverName = "babblechat-mysqldbserver.mysql.database.azure.com";
 $connection = mysqli_connect($serverName,$dbUsername,$dbPassword,$dbName);
 ?>
 </head>
