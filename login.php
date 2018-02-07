@@ -153,7 +153,7 @@ body {
 	}else{
 		//If server connection could not be established die and display error
 		
-		die ("Could not connect to server");
+		die ("Could not connect to server" . mysqli_error($connection));
 	}
 	//Initialise the error variables used for validation
 	$usernameError = "";
