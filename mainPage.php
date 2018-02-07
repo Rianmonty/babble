@@ -215,10 +215,10 @@ html{
 	//Set uid variable to the logged in users ID.
 	$uid = $_SESSION['userID'];
 	//Set server details.
-	$dbUsername = "dbo723134515";
+	$dbUsername = "rian@babblechat-mysqldbserver";
 	$dbPassword = "babbleapp";
-	$dbName = "db723134515";
-	$serverName = "'db723134515.db.1and1.com";
+	$dbName = "babbledb";
+	$serverName = "'babblechat-mysqldbserver.mysql.database.azure.com";
 	//Connect to server
 	
 	$connection = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);

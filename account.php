@@ -130,10 +130,10 @@ session_start();
 $uid = $_SESSION['userID'];
 //Connection code to DB
 
-$dbUsername = "dbo723134515";
+$dbUsername = "rian@babblechat-mysqldbserver";
 $dbPassword = "babbleapp";
-$dbName = "db723134515";
-$serverName = "'db723134515.db.1and1.com";
+$dbName = "babbledb";
+$serverName = "'babblechat-mysqldbserver.mysql.database.azure.com";
 $connection = mysqli_connect($serverName,$dbUsername,$dbPassword,$dbName) or die("Could not connect to server ".mysqli_connect_error());
 ?>
 
