@@ -218,7 +218,7 @@ font-size:20px;
 				echo "logged in";
 			}else{
 				echo mysqli_error($connection);
-				echo $passwordCheck;
+				echo "SQL ERROR ".mysqli_error_list($connection);
 			}
 			//Log user in and redirect.
 			
