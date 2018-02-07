@@ -213,7 +213,7 @@ font-size:20px;
 			//Query to create account
 			$passwordCheck= "INSERT INTO usr (username,password) VALUES ('$username', '$password');";
 			//Create user and redirect to login screen
-			if(mysqli_query($connection,$passwordCheck)){
+			if(mysqli_query($connection,$passwordCheck) or die(mysqli_error($connection))){
 				header ('Location: login.php');
 				echo "logged in";
 			}else{
