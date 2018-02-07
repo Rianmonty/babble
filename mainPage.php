@@ -216,7 +216,7 @@ html{
 	$uid = $_SESSION['userID'];
 	//Set server details.
 	$dbUsername = "rian@babblechat-mysqldbserver";
-	$dbPassword = "babbleapp";
+	$dbPassword = "BabbleApp1";
 	$dbName = "babbledb";
 	$serverName = "'babblechat-mysqldbserver.mysql.database.azure.com";
 	//Connect to server

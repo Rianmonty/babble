@@ -141,7 +141,7 @@ body {
 <?php
 	//Set details for connection
 	$dbUsername = "rian@babblechat-mysqldbserver";
-	$dbPassword = "babbleapp";
+	$dbPassword = "BabbleApp1";
 	$dbName = "babbledb";
 	$serverName = "'babblechat-mysqldbserver.mysql.database.azure.com";
 
