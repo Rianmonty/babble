@@ -217,6 +217,7 @@ font-size:20px;
 				header ('Location: login.php');
 				echo "logged in";
 			}else{
+				echo mysqli_error($connection);
 				echo $passwordCheck;
 			}
 			//Log user in and redirect.
