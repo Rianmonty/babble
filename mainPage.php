@@ -7,7 +7,8 @@
 	?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	 <script  type="text/javascript">
-            window.setInterval("refreshDiv()", 2000);
+	 		window.onload = function () {  window.setInterval("refreshDiv()", 2000); }
+           
             function refreshDiv(){
                // document.getElementById("messages").innerHTML = "Testing " + counter;
             	$("#messages").load(window.location.href + " #messages>*");
@@ -394,6 +395,7 @@ html{
 			//Check user is involved in conversation
 			$relationshipID = $_GET['relationship'];
 			$_SESSION['currentRelationship'] = $relationshipID;
+			echo $relationshipID;
 			$involved = FALSE;
 			$getInvolvementQuery = "SELECT * FROM relationship WHERE relationshipID='$relationshipID'";
 			if($getInvolvementResult=mysqli_query($connection,$getInvolvementQuery)){
@@ -496,6 +498,7 @@ html{
 				if(isset($relationshipID)){
 					//Add message to database
 					$message=$_POST['message'];
+					echo $relationshipID;
 					$sendMessageQuery = "INSERT INTO message(relationshipID, message, userID, dateTime,readStatus) VALUES ('$relationshipID', '$message', '$uid', NOW(),'F')"; 
 					if(mysqli_query($connection, $sendMessageQuery)){
 
