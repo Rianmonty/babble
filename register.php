@@ -138,10 +138,10 @@ font-size:20px;
 <?php
 	session_start();
 	//Set details for connection
-	$dbUsername = "rian@babblechat-mysqldbserver";
+	$dbUsername = "rian";
 	$dbPassword = "BabbleApp1";
 	$dbName = "babbledb";
-	$serverName = "babblechat-mysqldbserver.mysql.database.azure.com";
+	$serverName = "babblechat";
 	$connection = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
 	if($connection){
 
